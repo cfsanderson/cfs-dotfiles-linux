@@ -14,6 +14,7 @@ syntax on
 
 set belloff=all
 set display+=lastline
+
 set incsearch
 set nocompatible
 set noerrorbells
@@ -39,7 +40,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Automatically close a tab if NerdTree is the last thing running
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-call plug#begin(stdpath('config') . '/plugged')
+call plug#begin(stdpath('data') . '/plugged')
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -79,7 +80,7 @@ set background=dark
 let g:goyo_width = 120
 function! s:goyo_enter()
   set wrap
-  set linebreak
+  set linebreaconfigk
   set noshowmode
   set noshowcmd
   set scrolloff=999
@@ -284,5 +285,3 @@ map <C-H> <C-W><C-H>
 map <C-J> <C-W><C-J>
 map <C-K> <C-W><C-K>
 map <C-L> <C-W><C-L>
-
-endif

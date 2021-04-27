@@ -29,6 +29,7 @@ SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
 
 plugins=(
+    asdf
     git
     npm
     osx
@@ -43,6 +44,12 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 # aliases moved to ~/.oh-my-zsh/custom/aliases.zsh
 
 source $ZSH/oh-my-zsh.sh
+
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit
+compinit
 
 # ASDF
 # . /usr/local/opt/asdf/asdf.sh
