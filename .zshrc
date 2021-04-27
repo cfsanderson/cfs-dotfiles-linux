@@ -13,6 +13,8 @@ export ZSH="/Users/calebsanderson/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 #export PATH="/usr/local/sbin:$PATH"
 
+export EDITOR=/usr/bin/nvim
+
 ZSH_THEME="agnoster"
 
 setopt autocd
