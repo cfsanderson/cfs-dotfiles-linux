@@ -19,7 +19,7 @@ window:
   padding:
     x: 15
     y: 15
-  decorations: full
+  decorations: none
   startup_mode: Windowed
 scrolling:
   history: 10000
@@ -41,7 +41,7 @@ font:
   bold_italic:
     family: FiraCode
     style: Bold Italic
-  size: 10.0
+  size: 9.0
   offset:
     x: 0
     y: 0

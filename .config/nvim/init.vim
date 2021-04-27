@@ -30,6 +30,7 @@ set splitbelow
 set splitright
 set tabstop=2 softtabstop=2 expandtab
 set undodir=~/.vim/undodir
+set guifont=Fira\ Code\ Nerd\ Font\ 11
 
 highlight Comment cterm=italic
 
@@ -54,8 +55,8 @@ Plug 'tpope/vim-fugitive'
 Plug '~/.config/nvim/unmanaged-plugins/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
 Plug 'https://github.com/ap/vim-css-color'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
