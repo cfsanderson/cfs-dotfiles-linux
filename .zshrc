@@ -9,13 +9,13 @@
 #                               @cfsanderson
 
 # Path to my oh-my-zsh installation
-export ZSH="/Users/calebsanderson/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 #export PATH="/usr/local/sbin:$PATH"
 
 export EDITOR=/usr/bin/nvim
 
-ZSH_THEME="agnoster"
+ZSH_THEME="amuse"
 
 setopt autocd
 setopt noclobber
