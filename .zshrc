@@ -15,7 +15,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export EDITOR=/usr/bin/nvim
 
-ZSH_THEME="amuse"
+ZSH_THEME="agnoster"
 
 setopt autocd
 setopt noclobber
