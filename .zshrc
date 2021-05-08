@@ -20,6 +20,9 @@ ZSH_THEME="agnoster"
 setopt autocd
 setopt noclobber
 
+set guifont="Fira Code Nerd Font" 11
+set encoding=utf8
+
 ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
 
@@ -47,13 +50,12 @@ source $ZSH/oh-my-zsh.sh
 
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
+
 # initialise completions with ZSH's compinit
 autoload -Uz compinit
 compinit
 
 . $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
-# ASDF
-# . /usr/local/opt/asdf/asdf.sh
-# . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 neofetch
