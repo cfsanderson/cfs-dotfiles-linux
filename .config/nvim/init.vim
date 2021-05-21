@@ -14,7 +14,6 @@ syntax on
 
 set belloff=all
 set display+=lastline
-
 set incsearch
 set nocompatible
 set noerrorbells
@@ -157,6 +156,7 @@ let $FZF_DEFAULT_OPTS='--reverse'
 
 "" Airline theme
 let g:airline_theme = 'gruvbox_material'
+let g:airline_powerline_fonts = 1
 
 " REMAPS
 " Leader
