@@ -11,8 +11,8 @@
 # Window Customizations
 window:
   dimensions:
-    columns: 118
-    lines: 30
+    columns: 200
+    lines: 60
   position:
     x: 0
     y: 0
@@ -20,7 +20,7 @@ window:
     x: 15
     y: 15
   decorations: none
-  startup_mode: Windowed
+  startup_mode: Maximized
 scrolling:
   history: 10000
   multiplier: 3
