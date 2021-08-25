@@ -85,6 +85,10 @@ cursor:
 
 key_bindings:
   - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+  - { key: K, mods: Shift, action: ScrollPageUp }
+  - { key: J, mods: Shift, action: ScrollPageDown }
+  - { key: End, mods: Shift, action: ScrollToBottom }
+  - { key: Home, mods: Shift, action: ScrollToTop }
 
 bar:
   background: "#c5c8c6"
